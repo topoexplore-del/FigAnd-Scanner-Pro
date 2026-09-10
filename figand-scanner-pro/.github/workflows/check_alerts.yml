@@ -1,0 +1,56 @@
+name: Check Alerts (3x daily)
+
+on:
+  schedule:
+    # 3 veces al día en horario de mercado US (UTC). Nota: el pipeline es EOD
+    # (anti-repaint descarta la vela del día), así que correr cada 5 min no
+    # aporta datos nuevos — solo reenviaba la misma señal e inflaba el repo.
+    - cron: '0 15,18,21 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alert-check
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+
+      - name: Quick data refresh (core groups, no backtest)
+        run: python scripts/build_data.py --out-dir data --quick
+        env:
+          TZ: America/New_York
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+
+      - name: Check alerts
+        run: python scripts/check_alerts.py
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Recalcular perfiles FIGAND
+        run: python scripts/figand_stats.py
+
+      - name: Seguimiento de alertas (historial con resultados)
+        run: python scripts/track_alerts.py
+
+      - name: Commit (solo alertas, no el snapshot — evita inflar el repo)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/alerts.json data/alerts_state.json data/alerts_history.json data/figand_profiles.json data/figand_scan.json
+          git diff --staged --quiet || (git commit -m "chore: alert check [automated]" && git push)
