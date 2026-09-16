@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-15 18:28:30 (Hora Colombia)",
+  "checked_at": "2026-09-15 18:59:32 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -10,9 +10,333 @@
     "drawdown_52w_pct": -2.63,
     "realized_vol_20d": 8.8
   },
-  "confirmed": 0,
-  "signals": [],
+  "confirmed": 7,
+  "signals": [
+    {
+      "ticker": "EOG",
+      "composite": 100,
+      "prob": 95,
+      "fg": {
+        "earliness": 60,
+        "earliness_lab": "FRESCO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -15.54,
+        "calidad": "EXCELENTE",
+        "upside": 16.0
+      },
+      "buffett": 100,
+      "mos": -13.9,
+      "rs_rank": 87,
+      "asof": "2026-09-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 152.62,
+        "tp1": 156.34,
+        "tp2": 160.06,
+        "sl": 147.04
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses",
+        "6 Meses",
+        "1 A\u00f1o"
+      ]
+    },
+    {
+      "ticker": "VIST",
+      "composite": 96,
+      "prob": 95,
+      "fg": {
+        "earliness": 50,
+        "earliness_lab": "MADURO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -15.71,
+        "calidad": "EXCELENTE",
+        "upside": 21.2
+      },
+      "buffett": 70,
+      "mos": -8.7,
+      "rs_rank": 83,
+      "asof": "2026-09-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 77.42,
+        "tp1": 80.56,
+        "tp2": 83.7,
+        "sl": 72.71
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses",
+        "6 Meses",
+        "1 A\u00f1o"
+      ]
+    },
+    {
+      "ticker": "DVN",
+      "composite": 81,
+      "prob": 95,
+      "fg": {
+        "earliness": 45,
+        "earliness_lab": "MADURO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -12.11,
+        "calidad": "BUENO",
+        "upside": 16.5
+      },
+      "buffett": 60,
+      "mos": 19.4,
+      "rs_rank": 88,
+      "asof": "2026-09-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 50.94,
+        "tp1": 52.25,
+        "tp2": 53.56,
+        "sl": 48.97
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses",
+        "6 Meses",
+        "1 A\u00f1o"
+      ]
+    },
+    {
+      "ticker": "XOM",
+      "composite": 71,
+      "prob": 95,
+      "fg": {
+        "earliness": 75,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -13.21,
+        "calidad": "BUENO",
+        "upside": 12.0
+      },
+      "buffett": 30,
+      "mos": -37.9,
+      "rs_rank": 90,
+      "asof": "2026-09-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 168.2,
+        "tp1": 171.94,
+        "tp2": 175.68,
+        "sl": 162.59
+      },
+      "periods": [
+        "1 Semana",
+        "3 Meses",
+        "6 Meses"
+      ]
+    },
+    {
+      "ticker": "COP",
+      "composite": 71,
+      "prob": 95,
+      "fg": {
+        "earliness": 10,
+        "earliness_lab": "EXTENDIDO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -19.91,
+        "calidad": "BUENO",
+        "upside": 12.3
+      },
+      "buffett": 85,
+      "mos": -31.9,
+      "rs_rank": 93,
+      "asof": "2026-09-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 140.24,
+        "tp1": 143.5,
+        "tp2": 146.76,
+        "sl": 135.35
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses",
+        "6 Meses"
+      ]
+    },
+    {
+      "ticker": "BP",
+      "composite": 66,
+      "prob": 95,
+      "fg": {
+        "earliness": 35,
+        "earliness_lab": "TARDIO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al activa",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -10.55,
+        "calidad": "REGULAR",
+        "upside": 11.8
+      },
+      "buffett": 20,
+      "mos": -65.3,
+      "rs_rank": 83,
+      "asof": "2026-09-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 46.66,
+        "tp1": 47.67,
+        "tp2": 48.68,
+        "sl": 45.14
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses"
+      ]
+    },
+    {
+      "ticker": "DGX",
+      "composite": 60,
+      "prob": 95,
+      "fg": {
+        "earliness": 90,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al activa",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -19.71,
+        "calidad": "REGULAR",
+        "upside": 12.2
+      },
+      "buffett": 20,
+      "mos": -51.3,
+      "rs_rank": 91,
+      "asof": "2026-09-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 245.38,
+        "tp1": 251.05,
+        "tp2": 256.72,
+        "sl": 236.88
+      },
+      "periods": [
+        "1 Semana",
+        "3 Meses",
+        "6 Meses"
+      ]
+    }
+  ],
   "watchlist": [
+    {
+      "ticker": "PBR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "CRUS",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "HRMY",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "PARR",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "PBR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "CF",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "APA",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "EC",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "DINO",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "SM",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "VLO",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "PBYI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "AR",
+      "failed": [
+        "Radar"
+      ]
+    },
     {
       "ticker": "PLTR",
       "failed": [
@@ -20,21 +344,9 @@
       ]
     },
     {
-      "ticker": "FCX",
+      "ticker": "FTNT",
       "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "EWZ",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "DDTA",
-      "failed": [
-        "Game Theory"
+        "Analysis"
       ]
     }
   ]
