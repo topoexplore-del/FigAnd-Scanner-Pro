@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-09-17 13:53:04 (Hora Colombia)",
+  "checked_at": "2026-09-17 18:25:55 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 762.49,
+    "spy_price": 762.6,
     "spy_sma200": 713.81,
-    "spy_vs_sma200_pct": 6.82,
-    "drawdown_52w_pct": -1.98,
+    "spy_vs_sma200_pct": 6.84,
+    "drawdown_52w_pct": -1.96,
     "realized_vol_20d": 9.6
   },
-  "confirmed": 7,
+  "confirmed": 8,
   "signals": [
     {
       "ticker": "PBR",
@@ -187,6 +187,41 @@
       ]
     },
     {
+      "ticker": "ANET",
+      "composite": 80,
+      "prob": 95,
+      "fg": {
+        "earliness": 75,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -25.56,
+        "calidad": "BUENO",
+        "upside": 14.8
+      },
+      "buffett": 70,
+      "mos": -85.5,
+      "rs_rank": 86,
+      "asof": "2026-09-17",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 196.99,
+        "tp1": 205.47,
+        "tp2": 213.95,
+        "sl": 184.27
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses",
+        "6 Meses"
+      ]
+    },
+    {
       "ticker": "COP",
       "composite": 71,
       "prob": 95,
@@ -274,6 +309,12 @@
       ]
     },
     {
+      "ticker": "SMCI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "VIST",
       "failed": [
         "Radar"
@@ -316,15 +357,15 @@
       ]
     },
     {
-      "ticker": "SEZL",
+      "ticker": "NVDA",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "SHC",
+      "ticker": "SEZL",
       "failed": [
-        "Analysis"
+        "Radar"
       ]
     },
     {
@@ -335,12 +376,6 @@
     },
     {
       "ticker": "FCFS",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "ANET",
       "failed": [
         "Radar"
       ]
