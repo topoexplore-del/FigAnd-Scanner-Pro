@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-09-18 13:08:57 (Hora Colombia)",
+  "checked_at": "2026-09-18 18:05:13 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 759.92,
+    "spy_price": 761.69,
     "spy_sma200": 714.24,
-    "spy_vs_sma200_pct": 6.4,
-    "drawdown_52w_pct": -2.31,
-    "realized_vol_20d": 9.3
+    "spy_vs_sma200_pct": 6.64,
+    "drawdown_52w_pct": -2.08,
+    "realized_vol_20d": 9.2
   },
   "confirmed": 7,
   "signals": [
@@ -120,31 +120,30 @@
       "composite": 80,
       "prob": 95,
       "fg": {
-        "earliness": 75,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
+        "earliness": 65,
+        "earliness_lab": "FRESCO",
+        "not_temprano": true,
         "fase": "Se\u00f1al m\u00e1xima",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -25.56,
+        "dif_ema": -25.66,
         "calidad": "BUENO",
-        "upside": 14.8
+        "upside": 14.5
       },
       "buffett": 70,
       "mos": -85.5,
       "rs_rank": 86,
-      "asof": "2026-09-17",
+      "asof": "2026-09-18",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 196.99,
-        "tp1": 205.47,
-        "tp2": 213.95,
-        "sl": 184.27
+        "entry": 196.91,
+        "tp1": 205.19,
+        "tp2": 213.47,
+        "sl": 184.49
       },
       "periods": [
-        "1 Semana",
         "1 Mes",
         "3 Meses",
         "6 Meses"
