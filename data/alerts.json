@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-18 18:05:13 (Hora Colombia)",
+  "checked_at": "2026-09-18 18:53:16 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -13,34 +13,35 @@
   "confirmed": 7,
   "signals": [
     {
-      "ticker": "CF",
-      "composite": 100,
+      "ticker": "PBYI",
+      "composite": 86,
       "prob": 95,
       "fg": {
-        "earliness": 65,
+        "earliness": 60,
         "earliness_lab": "FRESCO",
         "not_temprano": true,
         "fase": "Se\u00f1al m\u00e1xima",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -20.8,
+        "dif_ema": -28.97,
         "calidad": "EXCELENTE",
-        "upside": 21.2
+        "upside": 16.5
       },
-      "buffett": 100,
-      "mos": -19.9,
-      "rs_rank": 92,
-      "asof": "2026-09-17",
+      "buffett": 90,
+      "mos": -41.9,
+      "rs_rank": 93,
+      "asof": "2026-09-18",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 132.2,
-        "tp1": 137.59,
-        "tp2": 142.98,
-        "sl": 124.11
+        "entry": 9.49,
+        "tp1": 9.84,
+        "tp2": 10.19,
+        "sl": 8.96
       },
       "periods": [
+        "1 Semana",
         "1 Mes",
         "3 Meses",
         "6 Meses",
@@ -48,68 +49,70 @@
       ]
     },
     {
-      "ticker": "SM",
-      "composite": 91,
+      "ticker": "MU",
+      "composite": 84,
       "prob": 95,
       "fg": {
-        "earliness": 85,
+        "earliness": 75,
         "earliness_lab": "TEMPRANO",
         "not_temprano": false,
         "fase": "Se\u00f1al m\u00e1xima",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -37.01,
+        "dif_ema": -52.85,
         "calidad": "EXCELENTE",
-        "upside": 22.0
+        "upside": 20.3
       },
-      "buffett": 70,
-      "mos": 74.8,
-      "rs_rank": 95,
-      "asof": "2026-09-17",
+      "buffett": 85,
+      "mos": -70.7,
+      "rs_rank": 19,
+      "asof": "2026-09-18",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 36.5,
-        "tp1": 38.08,
-        "tp2": 39.66,
-        "sl": 34.13
+        "entry": 1001.02,
+        "tp1": 1050.28,
+        "tp2": 1099.54,
+        "sl": 927.13
       },
       "periods": [
+        "1 Semana",
         "3 Meses",
         "6 Meses",
         "1 A\u00f1o"
       ]
     },
     {
-      "ticker": "DVN",
-      "composite": 81,
+      "ticker": "MU",
+      "composite": 84,
       "prob": 95,
       "fg": {
-        "earliness": 85,
+        "earliness": 75,
         "earliness_lab": "TEMPRANO",
         "not_temprano": false,
         "fase": "Se\u00f1al m\u00e1xima",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -11.45,
-        "calidad": "BUENO",
-        "upside": 17.6
+        "dif_ema": -52.85,
+        "calidad": "EXCELENTE",
+        "upside": 20.3
       },
-      "buffett": 60,
-      "mos": 25.8,
-      "rs_rank": 84,
-      "asof": "2026-09-17",
+      "buffett": 85,
+      "mos": -70.7,
+      "rs_rank": 19,
+      "asof": "2026-09-18",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 48.29,
-        "tp1": 49.71,
-        "tp2": 51.13,
-        "sl": 46.16
+        "entry": 1001.02,
+        "tp1": 1050.28,
+        "tp2": 1099.54,
+        "sl": 927.13
       },
       "periods": [
+        "1 Semana",
         "3 Meses",
         "6 Meses",
         "1 A\u00f1o"
@@ -132,7 +135,7 @@
       },
       "buffett": 70,
       "mos": -85.5,
-      "rs_rank": 86,
+      "rs_rank": 87,
       "asof": "2026-09-18",
       "live": null,
       "status": null,
@@ -142,6 +145,40 @@
         "tp1": 205.19,
         "tp2": 213.47,
         "sl": 184.49
+      },
+      "periods": [
+        "1 Mes",
+        "3 Meses",
+        "6 Meses"
+      ]
+    },
+    {
+      "ticker": "CNXN",
+      "composite": 71,
+      "prob": 95,
+      "fg": {
+        "earliness": 50,
+        "earliness_lab": "MADURO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -23.25,
+        "calidad": "BUENO",
+        "upside": 13.7
+      },
+      "buffett": 25,
+      "mos": -34.6,
+      "rs_rank": 91,
+      "asof": "2026-09-18",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 85.96,
+        "tp1": 88.35,
+        "tp2": 90.74,
+        "sl": 82.38
       },
       "periods": [
         "1 Mes",
@@ -160,61 +197,27 @@
         "fase": "Se\u00f1al activa",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -16.13,
+        "dif_ema": -16.12,
         "calidad": "REGULAR",
-        "upside": 13.6
+        "upside": 13.3
       },
       "buffett": 85,
       "mos": -65.1,
       "rs_rank": 92,
-      "asof": "2026-09-17",
+      "asof": "2026-09-18",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 155.06,
-        "tp1": 159.33,
-        "tp2": 163.6,
-        "sl": 148.66
+        "entry": 155.23,
+        "tp1": 159.35,
+        "tp2": 163.47,
+        "sl": 149.05
       },
       "periods": [
         "1 Semana",
         "3 Meses",
         "6 Meses"
-      ]
-    },
-    {
-      "ticker": "FFIV",
-      "composite": 64,
-      "prob": 95,
-      "fg": {
-        "earliness": 40,
-        "earliness_lab": "MADURO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al activa",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -21.45,
-        "calidad": "REGULAR",
-        "upside": 11.7
-      },
-      "buffett": 85,
-      "mos": -68.2,
-      "rs_rank": 81,
-      "asof": "2026-09-17",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 430.4,
-        "tp1": 444.46,
-        "tp2": 458.52,
-        "sl": 409.31
-      },
-      "periods": [
-        "1 Semana",
-        "1 Mes",
-        "3 Meses"
       ]
     },
     {
@@ -228,22 +231,22 @@
         "fase": "Se\u00f1al activa",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -19.73,
+        "dif_ema": -19.55,
         "calidad": "REGULAR",
-        "upside": 11.8
+        "upside": 11.6
       },
       "buffett": 20,
-      "mos": -51.4,
-      "rs_rank": 91,
-      "asof": "2026-09-17",
+      "mos": -51.1,
+      "rs_rank": 93,
+      "asof": "2026-09-18",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 245.85,
-        "tp1": 251.19,
-        "tp2": 256.53,
-        "sl": 237.84
+        "entry": 244.91,
+        "tp1": 250.06,
+        "tp2": 255.21,
+        "sl": 237.19
       },
       "periods": [
         "1 Semana",
@@ -277,12 +280,24 @@
       ]
     },
     {
+      "ticker": "PARR",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
       "ticker": "PBR",
       "failed": [
         "Radar"
       ]
     },
     {
+      "ticker": "CF",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "SMCI",
       "failed": [
         "Radar"
@@ -292,6 +307,18 @@
       "ticker": "SMCI",
       "failed": [
         "Radar"
+      ]
+    },
+    {
+      "ticker": "EPD",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "BWMX",
+      "failed": [
+        "Analysis"
       ]
     },
     {
@@ -307,37 +334,13 @@
       ]
     },
     {
-      "ticker": "NXPI",
+      "ticker": "SM",
       "failed": [
-        "Radar"
+        "Entry Zones"
       ]
     },
     {
       "ticker": "NXPI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "VLO",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "ABEV",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "PBYI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "NVDA",
       "failed": [
         "Radar"
       ]
