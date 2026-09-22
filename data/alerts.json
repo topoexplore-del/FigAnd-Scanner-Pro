@@ -1,50 +1,17 @@
 {
-  "checked_at": "2026-09-22 13:34:08 (Hora Colombia)",
+  "checked_at": "2026-09-22 18:33:48 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 774.15,
-    "spy_sma200": 713.47,
-    "spy_vs_sma200_pct": 8.5,
-    "drawdown_52w_pct": -0.23,
+    "spy_price": 773.38,
+    "spy_sma200": 713.46,
+    "spy_vs_sma200_pct": 8.4,
+    "drawdown_52w_pct": -0.33,
     "realized_vol_20d": 10.5
   },
-  "confirmed": 1,
-  "signals": [
-    {
-      "ticker": "EWZ",
-      "composite": 25,
-      "prob": 72,
-      "fg": {
-        "earliness": 65,
-        "earliness_lab": "FRESCO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -3.72,
-        "calidad": "EXCELENTE",
-        "upside": 14.9
-      },
-      "buffett": 5,
-      "mos": null,
-      "rs_rank": 79,
-      "asof": "2026-09-21",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 37.83,
-        "tp1": 38.62,
-        "tp2": 39.41,
-        "sl": 36.64
-      },
-      "periods": [
-        "1-3 Meses"
-      ]
-    }
-  ],
+  "confirmed": 0,
+  "signals": [],
   "watchlist": [
     {
       "ticker": "SMCI",
@@ -65,7 +32,7 @@
       ]
     },
     {
-      "ticker": "PLTR",
+      "ticker": "MPWR",
       "failed": [
         "Radar"
       ]
@@ -77,19 +44,31 @@
       ]
     },
     {
+      "ticker": "POWL",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "AMD",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "EWY",
+      "ticker": "DE",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "EWZ",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "SPMO",
+      "ticker": "EWJ",
       "failed": [
         "Game Theory"
       ]
