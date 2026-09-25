@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-24 18:49:30 (Hora Colombia)",
+  "checked_at": "2026-09-24 19:23:24 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -14,18 +14,6 @@
   "signals": [],
   "watchlist": [
     {
-      "ticker": "PBR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "PBR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
       "ticker": "SMCI",
       "failed": [
         "Radar"
@@ -33,36 +21,12 @@
     },
     {
       "ticker": "SMCI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "NXPI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "NXPI",
       "failed": [
         "Radar"
       ]
     },
     {
       "ticker": "NVDA",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "MU",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "MU",
       "failed": [
         "Radar"
       ]
@@ -99,6 +63,24 @@
     },
     {
       "ticker": "POWL",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "POWL",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "AMD",
       "failed": [
         "Radar"
       ]
