@@ -1,74 +1,26 @@
 {
-  "checked_at": "2026-09-25 18:53:56 (Hora Colombia)",
+  "checked_at": "2026-09-25 19:29:02 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 771.35,
-    "spy_sma200": 714.84,
-    "spy_vs_sma200_pct": 7.91,
-    "drawdown_52w_pct": -0.59,
-    "realized_vol_20d": 10.8
+    "spy_price": 767.18,
+    "spy_sma200": 714.36,
+    "spy_vs_sma200_pct": 7.39,
+    "drawdown_52w_pct": -1.13,
+    "realized_vol_20d": 10.9
   },
   "confirmed": 0,
   "signals": [],
   "watchlist": [
     {
-      "ticker": "SMCI",
+      "ticker": "DDTA",
       "failed": [
-        "Radar"
+        "Game Theory"
       ]
     },
     {
-      "ticker": "SMCI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "SHEL",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "MPWR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "ALAB",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "MPWR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "POWL",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "AMD",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "EWT",
+      "ticker": "DDFA",
       "failed": [
         "Game Theory"
       ]
