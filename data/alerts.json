@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-09-28 20:34:01 (Hora Colombia)",
+  "checked_at": "2026-09-29 14:51:15 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 771.35,
-    "spy_sma200": 714.84,
-    "spy_vs_sma200_pct": 7.91,
-    "drawdown_52w_pct": -0.59,
-    "realized_vol_20d": 10.8
+    "spy_price": 764.32,
+    "spy_sma200": 715.71,
+    "spy_vs_sma200_pct": 6.79,
+    "drawdown_52w_pct": -1.5,
+    "realized_vol_20d": 11.1
   },
-  "confirmed": 4,
+  "confirmed": 5,
   "signals": [
     {
       "ticker": "DINO",
@@ -45,6 +45,40 @@
         "3 Meses",
         "6 Meses",
         "1 A\u00f1o"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "composite": 85,
+      "prob": 95,
+      "fg": {
+        "earliness": 75,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -11.82,
+        "calidad": "EXCELENTE",
+        "upside": 13.3
+      },
+      "buffett": 85,
+      "mos": -82.0,
+      "rs_rank": 92,
+      "asof": "2026-09-28",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 227.05,
+        "tp1": 233.07,
+        "tp2": 239.09,
+        "sl": 218.02
+      },
+      "periods": [
+        "1 Mes",
+        "3 Meses",
+        "6 Meses"
       ]
     },
     {
@@ -158,6 +192,12 @@
       ]
     },
     {
+      "ticker": "SMCI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "INCY",
       "failed": [
         "Radar"
@@ -176,9 +216,27 @@
       ]
     },
     {
+      "ticker": "MPWR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ALAB",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "DAL",
       "failed": [
         "Analysis"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "failed": [
+        "Radar"
       ]
     },
     {
@@ -215,12 +273,6 @@
       "ticker": "WAT",
       "failed": [
         "Analysis"
-      ]
-    },
-    {
-      "ticker": "DDTA",
-      "failed": [
-        "Game Theory"
       ]
     }
   ]
