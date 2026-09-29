@@ -1,20 +1,55 @@
 {
-  "checked_at": "2026-09-28 16:07:55 (Hora Colombia)",
+  "checked_at": "2026-09-28 20:34:01 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 765.61,
-    "spy_sma200": 715.29,
-    "spy_vs_sma200_pct": 7.04,
-    "drawdown_52w_pct": -1.33,
-    "realized_vol_20d": 11.1
+    "spy_price": 771.35,
+    "spy_sma200": 714.84,
+    "spy_vs_sma200_pct": 7.91,
+    "drawdown_52w_pct": -0.59,
+    "realized_vol_20d": 10.8
   },
-  "confirmed": 1,
+  "confirmed": 4,
   "signals": [
     {
-      "ticker": "NVDA",
-      "composite": 85,
+      "ticker": "DINO",
+      "composite": 91,
+      "prob": 95,
+      "fg": {
+        "earliness": 70,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -55.08,
+        "calidad": "EXCELENTE",
+        "upside": 22.3
+      },
+      "buffett": 65,
+      "mos": 9.7,
+      "rs_rank": 0,
+      "asof": "2026-09-28",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 104.8,
+        "tp1": 109.44,
+        "tp2": 114.08,
+        "sl": 97.84
+      },
+      "periods": [
+        "1 Mes",
+        "3 Meses",
+        "6 Meses",
+        "1 A\u00f1o"
+      ]
+    },
+    {
+      "ticker": "SHEL",
+      "composite": 81,
       "prob": 95,
       "fg": {
         "earliness": 75,
@@ -23,69 +58,167 @@
         "fase": "Se\u00f1al m\u00e1xima",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -11.82,
-        "calidad": "EXCELENTE",
-        "upside": 13.3
+        "dif_ema": -13.8,
+        "calidad": "BUENO",
+        "upside": 13.5
       },
-      "buffett": 85,
-      "mos": -82.1,
-      "rs_rank": 92,
+      "buffett": 50,
+      "mos": 19.1,
+      "rs_rank": 0,
       "asof": "2026-09-28",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 227.05,
-        "tp1": 233.07,
-        "tp2": 239.09,
-        "sl": 218.02
+        "entry": 95.99,
+        "tp1": 97.58,
+        "tp2": 99.17,
+        "sl": 93.6
       },
       "periods": [
+        "1 Semana",
         "1 Mes",
         "3 Meses",
         "6 Meses"
+      ]
+    },
+    {
+      "ticker": "MOG/A",
+      "composite": 76,
+      "prob": 95,
+      "fg": {
+        "earliness": 100,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -9.33,
+        "calidad": "BUENO",
+        "upside": 14.8
+      },
+      "buffett": 50,
+      "mos": -64.9,
+      "rs_rank": 0,
+      "asof": "2026-09-28",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 386.32,
+        "tp1": 398.45,
+        "tp2": 410.58,
+        "sl": 368.12
+      },
+      "periods": [
+        "1 Semana",
+        "3 Meses",
+        "6 Meses"
+      ]
+    },
+    {
+      "ticker": "NDSN",
+      "composite": 70,
+      "prob": 95,
+      "fg": {
+        "earliness": 75,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al activa",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -11.95,
+        "calidad": "REGULAR",
+        "upside": 11.0
+      },
+      "buffett": 85,
+      "mos": -65.2,
+      "rs_rank": 0,
+      "asof": "2026-09-28",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 329.43,
+        "tp1": 335.73,
+        "tp2": 342.03,
+        "sl": 319.98
+      },
+      "periods": [
+        "1 Semana",
+        "3 Meses"
       ]
     }
   ],
   "watchlist": [
     {
-      "ticker": "SMCI",
+      "ticker": "HRMY",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "MPWR",
+      "ticker": "INCY",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "ALAB",
+      "ticker": "VLO",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "AMD",
+      "ticker": "PBYI",
       "failed": [
         "Radar"
+      ]
+    },
+    {
+      "ticker": "DAL",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "WCC",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "IEX",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "PNTG",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "MAR",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "BIIB",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "WAT",
+      "failed": [
+        "Analysis"
       ]
     },
     {
       "ticker": "DDTA",
-      "failed": [
-        "Game Theory"
-      ]
-    },
-    {
-      "ticker": "DDFA",
-      "failed": [
-        "Game Theory"
-      ]
-    },
-    {
-      "ticker": "EWT",
       "failed": [
         "Game Theory"
       ]
