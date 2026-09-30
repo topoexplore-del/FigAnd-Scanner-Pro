@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-29 19:08:01 (Hora Colombia)",
+  "checked_at": "2026-09-29 20:08:04 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -10,81 +10,11 @@
     "drawdown_52w_pct": -1.33,
     "realized_vol_20d": 11.1
   },
-  "confirmed": 4,
+  "confirmed": 1,
   "signals": [
-    {
-      "ticker": "DINO",
-      "composite": 91,
-      "prob": 95,
-      "fg": {
-        "earliness": 70,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -55.08,
-        "calidad": "EXCELENTE",
-        "upside": 22.3
-      },
-      "buffett": 65,
-      "mos": 9.7,
-      "rs_rank": 0,
-      "asof": "2026-09-28",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 104.8,
-        "tp1": 109.44,
-        "tp2": 114.08,
-        "sl": 97.84
-      },
-      "periods": [
-        "1 Mes",
-        "3 Meses",
-        "6 Meses",
-        "1 A\u00f1o"
-      ]
-    },
     {
       "ticker": "SHEL",
       "composite": 81,
-      "prob": 95,
-      "fg": {
-        "earliness": 75,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -13.8,
-        "calidad": "BUENO",
-        "upside": 13.5
-      },
-      "buffett": 50,
-      "mos": 19.1,
-      "rs_rank": 0,
-      "asof": "2026-09-28",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 95.99,
-        "tp1": 97.58,
-        "tp2": 99.17,
-        "sl": 93.6
-      },
-      "periods": [
-        "1 Semana",
-        "1 Mes",
-        "3 Meses",
-        "6 Meses"
-      ]
-    },
-    {
-      "ticker": "MOG/A",
-      "composite": 76,
       "prob": 95,
       "fg": {
         "earliness": 100,
@@ -93,134 +23,34 @@
         "fase": "Se\u00f1al m\u00e1xima",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -9.33,
+        "dif_ema": -13.63,
         "calidad": "BUENO",
-        "upside": 14.8
+        "upside": 13.6
       },
       "buffett": 50,
-      "mos": -64.9,
+      "mos": 20.8,
       "rs_rank": 0,
-      "asof": "2026-09-28",
+      "asof": "2026-09-29",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 386.32,
-        "tp1": 398.45,
-        "tp2": 410.58,
-        "sl": 368.12
+        "entry": 94.66,
+        "tp1": 96.26,
+        "tp2": 97.86,
+        "sl": 92.26
       },
       "periods": [
-        "1 Semana",
         "3 Meses",
         "6 Meses"
-      ]
-    },
-    {
-      "ticker": "NDSN",
-      "composite": 70,
-      "prob": 95,
-      "fg": {
-        "earliness": 75,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al activa",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -11.95,
-        "calidad": "REGULAR",
-        "upside": 11.0
-      },
-      "buffett": 85,
-      "mos": -65.2,
-      "rs_rank": 0,
-      "asof": "2026-09-28",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 329.43,
-        "tp1": 335.73,
-        "tp2": 342.03,
-        "sl": 319.98
-      },
-      "periods": [
-        "1 Semana",
-        "3 Meses"
       ]
     }
   ],
   "watchlist": [
     {
-      "ticker": "HRMY",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "INCY",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "VLO",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "PBYI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "DAL",
+      "ticker": "SBFG",
       "failed": [
         "Analysis"
-      ]
-    },
-    {
-      "ticker": "WCC",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "IEX",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "PNTG",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "MAR",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "BIIB",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "WAT",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "DDTA",
-      "failed": [
-        "Game Theory"
       ]
     }
   ]
