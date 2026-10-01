@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-30 19:25:09 (Hora Colombia)",
+  "checked_at": "2026-09-30 20:06:52 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -10,48 +10,7 @@
     "drawdown_52w_pct": -1.51,
     "realized_vol_20d": 11.1
   },
-  "confirmed": 1,
-  "signals": [
-    {
-      "ticker": "SHEL",
-      "composite": 81,
-      "prob": 95,
-      "fg": {
-        "earliness": 100,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -13.63,
-        "calidad": "BUENO",
-        "upside": 13.6
-      },
-      "buffett": 50,
-      "mos": 20.8,
-      "rs_rank": 0,
-      "asof": "2026-09-29",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 94.66,
-        "tp1": 96.26,
-        "tp2": 97.86,
-        "sl": 92.26
-      },
-      "periods": [
-        "3 Meses",
-        "6 Meses"
-      ]
-    }
-  ],
-  "watchlist": [
-    {
-      "ticker": "SBFG",
-      "failed": [
-        "Analysis"
-      ]
-    }
-  ]
+  "confirmed": 0,
+  "signals": [],
+  "watchlist": []
 }
