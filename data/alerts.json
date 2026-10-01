@@ -1,16 +1,82 @@
 {
-  "checked_at": "2026-09-30 20:06:52 (Hora Colombia)",
+  "checked_at": "2026-10-01 15:11:23 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 764.2,
-    "spy_sma200": 715.71,
-    "spy_vs_sma200_pct": 6.78,
-    "drawdown_52w_pct": -1.51,
-    "realized_vol_20d": 11.1
+    "spy_price": 764.04,
+    "spy_sma200": 716.56,
+    "spy_vs_sma200_pct": 6.63,
+    "drawdown_52w_pct": -1.54,
+    "realized_vol_20d": 10.7
   },
-  "confirmed": 0,
-  "signals": [],
-  "watchlist": []
+  "confirmed": 1,
+  "signals": [
+    {
+      "ticker": "NVDA",
+      "composite": 85,
+      "prob": 95,
+      "fg": {
+        "earliness": 75,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -11.94,
+        "calidad": "EXCELENTE",
+        "upside": 13.2
+      },
+      "buffett": 85,
+      "mos": -82.0,
+      "rs_rank": 91,
+      "asof": "2026-09-30",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 226.59,
+        "tp1": 232.54,
+        "tp2": 238.49,
+        "sl": 217.66
+      },
+      "periods": [
+        "1 Mes",
+        "3 Meses",
+        "6 Meses"
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "ticker": "SMCI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "MPWR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ALAB",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "BSCR",
+      "failed": [
+        "Game Theory"
+      ]
+    }
+  ]
 }
