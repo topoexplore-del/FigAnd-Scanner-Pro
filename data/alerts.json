@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-10-01 20:28:40 (Hora Colombia)",
+  "checked_at": "2026-10-02 14:49:07 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 762.63,
-    "spy_sma200": 716.11,
-    "spy_vs_sma200_pct": 6.5,
-    "drawdown_52w_pct": -1.72,
-    "realized_vol_20d": 10.8
+    "spy_price": 769.71,
+    "spy_sma200": 717.04,
+    "spy_vs_sma200_pct": 7.35,
+    "drawdown_52w_pct": -0.8,
+    "realized_vol_20d": 10.4
   },
   "confirmed": 1,
   "signals": [
@@ -46,5 +46,36 @@
       ]
     }
   ],
-  "watchlist": []
+  "watchlist": [
+    {
+      "ticker": "SMCI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "MPWR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ALAB",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "POWL",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "failed": [
+        "Radar"
+      ]
+    }
+  ]
 }
