@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-05 16:53:57 (Hora Colombia)",
+  "checked_at": "2026-10-05 21:19:04 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -10,9 +10,136 @@
     "drawdown_52w_pct": -0.14,
     "realized_vol_20d": 10.5
   },
-  "confirmed": 0,
-  "signals": [],
+  "confirmed": 3,
+  "signals": [
+    {
+      "ticker": "NEU",
+      "composite": 84,
+      "prob": 95,
+      "fg": {
+        "earliness": 90,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -21.1,
+        "calidad": "EXCELENTE",
+        "upside": 12.5
+      },
+      "buffett": 85,
+      "mos": -50.5,
+      "rs_rank": 99,
+      "asof": "2026-10-05",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 917.74,
+        "tp1": 939.79,
+        "tp2": 961.84,
+        "sl": 884.66
+      },
+      "periods": [
+        "3 Meses",
+        "6 Meses"
+      ]
+    },
+    {
+      "ticker": "ENS",
+      "composite": 81,
+      "prob": 95,
+      "fg": {
+        "earliness": 75,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": 5.35,
+        "calidad": "BUENO",
+        "upside": 14.5
+      },
+      "buffett": 55,
+      "mos": -44.7,
+      "rs_rank": 38,
+      "asof": "2026-10-05",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 191.27,
+        "tp1": 197.11,
+        "tp2": 202.95,
+        "sl": 182.51
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses",
+        "6 Meses"
+      ]
+    },
+    {
+      "ticker": "MOG/A",
+      "composite": 76,
+      "prob": 95,
+      "fg": {
+        "earliness": 95,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -9.19,
+        "calidad": "BUENO",
+        "upside": 15.3
+      },
+      "buffett": 50,
+      "mos": -64.1,
+      "rs_rank": 24,
+      "asof": "2026-10-05",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 377.3,
+        "tp1": 389.78,
+        "tp2": 402.26,
+        "sl": 358.58
+      },
+      "periods": [
+        "3 Meses",
+        "6 Meses",
+        "1 A\u00f1o"
+      ]
+    }
+  ],
   "watchlist": [
+    {
+      "ticker": "PBR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "CRUS",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "PARR",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "PBR",
+      "failed": [
+        "Radar"
+      ]
+    },
     {
       "ticker": "SMCI",
       "failed": [
@@ -20,27 +147,63 @@
       ]
     },
     {
-      "ticker": "ALAB",
+      "ticker": "SMCI",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "ROK",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "POWL",
+      "ticker": "MU",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "SBFG",
+      "ticker": "MU",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "APA",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "DINO",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ACN",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "VLO",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "PBYI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "PSX",
       "failed": [
         "Analysis"
+      ]
+    },
+    {
+      "ticker": "VCTR",
+      "failed": [
+        "Radar"
       ]
     }
   ]
