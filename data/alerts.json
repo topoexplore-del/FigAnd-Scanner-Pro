@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-06 20:24:47 (Hora Colombia)",
+  "checked_at": "2026-10-07 15:28:40 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 779.09,
-    "spy_sma200": 718.13,
-    "spy_vs_sma200_pct": 8.49,
-    "drawdown_52w_pct": 0.0,
-    "realized_vol_20d": 10.4
+    "spy_price": 777.22,
+    "spy_sma200": 718.67,
+    "spy_vs_sma200_pct": 8.15,
+    "drawdown_52w_pct": -0.24,
+    "realized_vol_20d": 10.3
   },
-  "confirmed": 6,
+  "confirmed": 7,
   "signals": [
     {
       "ticker": "NEU",
@@ -79,6 +79,40 @@
         "1 Semana",
         "3 Meses",
         "6 Meses"
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "composite": 80,
+      "prob": 95,
+      "fg": {
+        "earliness": 25,
+        "earliness_lab": "TARDIO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -28.19,
+        "calidad": "BUENO",
+        "upside": 11.7
+      },
+      "buffett": 70,
+      "mos": -86.6,
+      "rs_rank": 91,
+      "asof": "2026-10-07",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 213.74,
+        "tp1": 220.7,
+        "tp2": 227.66,
+        "sl": 203.3
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses"
       ]
     },
     {
@@ -294,6 +328,12 @@
       ]
     },
     {
+      "ticker": "ALAB",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "LRCX",
       "failed": [
         "Radar"
@@ -301,12 +341,6 @@
     },
     {
       "ticker": "TER",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "LRCX",
       "failed": [
         "Radar"
       ]
