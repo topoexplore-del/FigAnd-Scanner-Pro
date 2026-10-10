@@ -1,53 +1,17 @@
 {
-  "checked_at": "2026-10-09 15:03:42 (Hora Colombia)",
+  "checked_at": "2026-10-09 19:33:28 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 778.45,
-    "spy_sma200": 719.66,
-    "spy_vs_sma200_pct": 8.17,
-    "drawdown_52w_pct": -0.08,
-    "realized_vol_20d": 9.9
+    "spy_price": 773.93,
+    "spy_sma200": 719.16,
+    "spy_vs_sma200_pct": 7.62,
+    "drawdown_52w_pct": -0.66,
+    "realized_vol_20d": 10.2
   },
-  "confirmed": 11,
+  "confirmed": 8,
   "signals": [
-    {
-      "ticker": "SMCI",
-      "composite": 96,
-      "prob": 95,
-      "fg": {
-        "earliness": 50,
-        "earliness_lab": "MADURO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -28.44,
-        "calidad": "EXCELENTE",
-        "upside": 25.7
-      },
-      "buffett": 55,
-      "mos": -20.9,
-      "rs_rank": 96,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 42.07,
-        "tp1": 44.39,
-        "tp2": 46.71,
-        "sl": 38.59
-      },
-      "periods": [
-        "1 Semana",
-        "1 Mes",
-        "3 Meses",
-        "6 Meses",
-        "1 A\u00f1o"
-      ]
-    },
     {
       "ticker": "APA",
       "composite": 94,
@@ -119,40 +83,6 @@
       ]
     },
     {
-      "ticker": "NVDA",
-      "composite": 85,
-      "prob": 95,
-      "fg": {
-        "earliness": 85,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -12.43,
-        "calidad": "EXCELENTE",
-        "upside": 12.9
-      },
-      "buffett": 85,
-      "mos": -82.2,
-      "rs_rank": 84,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 228.75,
-        "tp1": 234.5,
-        "tp2": 240.25,
-        "sl": 220.12
-      },
-      "periods": [
-        "1 Mes",
-        "3 Meses",
-        "6 Meses"
-      ]
-    },
-    {
       "ticker": "PGNY",
       "composite": 80,
       "prob": 95,
@@ -214,41 +144,6 @@
         "tp1": 3.25,
         "tp2": 3.34,
         "sl": 3.03
-      },
-      "periods": [
-        "1 Semana",
-        "1 Mes",
-        "3 Meses",
-        "6 Meses"
-      ]
-    },
-    {
-      "ticker": "PWR",
-      "composite": 71,
-      "prob": 95,
-      "fg": {
-        "earliness": 55,
-        "earliness_lab": "FRESCO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al activa",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -7.04,
-        "calidad": "REGULAR",
-        "upside": 12.7
-      },
-      "buffett": 35,
-      "mos": -83.6,
-      "rs_rank": 78,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 678.04,
-        "tp1": 702.35,
-        "tp2": 726.66,
-        "sl": 641.57
       },
       "periods": [
         "1 Semana",
@@ -462,25 +357,25 @@
       ]
     },
     {
-      "ticker": "MPWR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "ALAB",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
       "ticker": "TER",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "QLYS",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "CIEN",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "SYK",
       "failed": [
         "Radar"
       ]
