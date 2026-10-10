@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-09 19:33:28 (Hora Colombia)",
+  "checked_at": "2026-10-09 20:29:44 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -10,116 +10,11 @@
     "drawdown_52w_pct": -0.66,
     "realized_vol_20d": 10.2
   },
-  "confirmed": 8,
+  "confirmed": 1,
   "signals": [
     {
-      "ticker": "APA",
-      "composite": 94,
-      "prob": 95,
-      "fg": {
-        "earliness": 90,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -24.73,
-        "calidad": "EXCELENTE",
-        "upside": 19.6
-      },
-      "buffett": 95,
-      "mos": 1.5,
-      "rs_rank": 0,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 44.99,
-        "tp1": 46.59,
-        "tp2": 48.19,
-        "sl": 42.59
-      },
-      "periods": [
-        "1 Semana",
-        "3 Meses",
-        "6 Meses",
-        "1 A\u00f1o"
-      ]
-    },
-    {
-      "ticker": "CBOE",
-      "composite": 90,
-      "prob": 95,
-      "fg": {
-        "earliness": 90,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": 5.33,
-        "calidad": "EXCELENTE",
-        "upside": 17.4
-      },
-      "buffett": 85,
-      "mos": -57.6,
-      "rs_rank": 0,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 290.61,
-        "tp1": 302.18,
-        "tp2": 313.75,
-        "sl": 273.25
-      },
-      "periods": [
-        "1 Semana",
-        "3 Meses",
-        "6 Meses",
-        "1 A\u00f1o"
-      ]
-    },
-    {
-      "ticker": "PGNY",
-      "composite": 80,
-      "prob": 95,
-      "fg": {
-        "earliness": 90,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -9.41,
-        "calidad": "BUENO",
-        "upside": 15.4
-      },
-      "buffett": 60,
-      "mos": -60.3,
-      "rs_rank": 0,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 27.55,
-        "tp1": 28.47,
-        "tp2": 29.39,
-        "sl": 26.17
-      },
-      "periods": [
-        "1 Semana",
-        "3 Meses",
-        "6 Meses",
-        "1 A\u00f1o"
-      ]
-    },
-    {
-      "ticker": "ABEV",
-      "composite": 79,
+      "ticker": "SHEL",
+      "composite": 81,
       "prob": 95,
       "fg": {
         "earliness": 75,
@@ -128,257 +23,29 @@
         "fase": "Se\u00f1al m\u00e1xima",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -1.59,
+        "dif_ema": -14.07,
         "calidad": "BUENO",
-        "upside": 13.5
+        "upside": 13.7
       },
-      "buffett": 90,
-      "mos": -32.1,
+      "buffett": 50,
+      "mos": 14.8,
       "rs_rank": 0,
-      "asof": "2026-10-08",
+      "asof": "2026-10-09",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 3.16,
-        "tp1": 3.25,
-        "tp2": 3.34,
-        "sl": 3.03
-      },
-      "periods": [
-        "1 Semana",
-        "1 Mes",
-        "3 Meses",
-        "6 Meses"
-      ]
-    },
-    {
-      "ticker": "MTSI",
-      "composite": 71,
-      "prob": 95,
-      "fg": {
-        "earliness": 25,
-        "earliness_lab": "TARDIO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al activa",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -4.62,
-        "calidad": "REGULAR",
-        "upside": 17.2
-      },
-      "buffett": 75,
-      "mos": -88.3,
-      "rs_rank": 0,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 317.35,
-        "tp1": 333.56,
-        "tp2": 349.77,
-        "sl": 293.04
-      },
-      "periods": [
-        "1 Semana",
-        "1 Mes",
-        "3 Meses",
-        "6 Meses",
-        "1 A\u00f1o"
-      ]
-    },
-    {
-      "ticker": "BP",
-      "composite": 66,
-      "prob": 95,
-      "fg": {
-        "earliness": 90,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al activa",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -9.2,
-        "calidad": "REGULAR",
-        "upside": 12.7
-      },
-      "buffett": 20,
-      "mos": -65.2,
-      "rs_rank": 0,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 46.02,
-        "tp1": 47.15,
-        "tp2": 48.28,
-        "sl": 44.33
+        "entry": 99.66,
+        "tp1": 101.38,
+        "tp2": 103.1,
+        "sl": 97.08
       },
       "periods": [
         "1 Semana",
         "3 Meses",
         "6 Meses"
-      ]
-    },
-    {
-      "ticker": "ADI",
-      "composite": 61,
-      "prob": 95,
-      "fg": {
-        "earliness": 65,
-        "earliness_lab": "FRESCO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al activa",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -8.53,
-        "calidad": "REGULAR",
-        "upside": 10.2
-      },
-      "buffett": 60,
-      "mos": -71.8,
-      "rs_rank": 0,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 402.59,
-        "tp1": 413.73,
-        "tp2": 424.87,
-        "sl": 385.88
-      },
-      "periods": [
-        "1 Mes",
-        "3 Meses"
-      ]
-    },
-    {
-      "ticker": "ADI",
-      "composite": 61,
-      "prob": 95,
-      "fg": {
-        "earliness": 65,
-        "earliness_lab": "FRESCO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al activa",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -8.53,
-        "calidad": "REGULAR",
-        "upside": 10.2
-      },
-      "buffett": 60,
-      "mos": -71.8,
-      "rs_rank": 0,
-      "asof": "2026-10-08",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 402.59,
-        "tp1": 413.73,
-        "tp2": 424.87,
-        "sl": 385.88
-      },
-      "periods": [
-        "1 Mes",
-        "3 Meses"
       ]
     }
   ],
-  "watchlist": [
-    {
-      "ticker": "PBR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "EOG",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "PBR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "DINO",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "ACN",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "VLO",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "DLO",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "PBYI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "VCTR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "SCCO",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "FMX",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "TER",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "QLYS",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "CIEN",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "SYK",
-      "failed": [
-        "Radar"
-      ]
-    }
-  ]
+  "watchlist": []
 }
