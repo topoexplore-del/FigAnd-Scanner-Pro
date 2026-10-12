@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-09 20:29:44 (Hora Colombia)",
+  "checked_at": "2026-10-12 17:27:22 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 773.93,
-    "spy_sma200": 719.16,
-    "spy_vs_sma200_pct": 7.62,
-    "drawdown_52w_pct": -0.66,
-    "realized_vol_20d": 10.2
+    "spy_price": 778.1,
+    "spy_sma200": 720.14,
+    "spy_vs_sma200_pct": 8.05,
+    "drawdown_52w_pct": -0.13,
+    "realized_vol_20d": 9.8
   },
-  "confirmed": 1,
+  "confirmed": 2,
   "signals": [
     {
       "ticker": "SHEL",
@@ -44,6 +44,39 @@
         "1 Semana",
         "3 Meses",
         "6 Meses"
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "composite": 80,
+      "prob": 95,
+      "fg": {
+        "earliness": 65,
+        "earliness_lab": "FRESCO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -28.12,
+        "calidad": "BUENO",
+        "upside": 11.9
+      },
+      "buffett": 70,
+      "mos": -86.3,
+      "rs_rank": 93,
+      "asof": "2026-10-12",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 208.79,
+        "tp1": 215.74,
+        "tp2": 222.69,
+        "sl": 198.36
+      },
+      "periods": [
+        "1 Mes",
+        "3 Meses"
       ]
     }
   ],
