@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-10-12 22:05:31 (Hora Colombia)",
+  "checked_at": "2026-10-13 15:34:49 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 778.1,
-    "spy_sma200": 720.14,
-    "spy_vs_sma200_pct": 8.05,
-    "drawdown_52w_pct": -0.13,
-    "realized_vol_20d": 9.8
+    "spy_price": 778.01,
+    "spy_sma200": 720.6,
+    "spy_vs_sma200_pct": 7.97,
+    "drawdown_52w_pct": -0.14,
+    "realized_vol_20d": 9.5
   },
-  "confirmed": 4,
+  "confirmed": 3,
   "signals": [
     {
       "ticker": "CBOE",
@@ -45,39 +45,6 @@
         "3 Meses",
         "6 Meses",
         "1 A\u00f1o"
-      ]
-    },
-    {
-      "ticker": "ANET",
-      "composite": 80,
-      "prob": 95,
-      "fg": {
-        "earliness": 65,
-        "earliness_lab": "FRESCO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -28.12,
-        "calidad": "BUENO",
-        "upside": 11.9
-      },
-      "buffett": 70,
-      "mos": -86.3,
-      "rs_rank": 50,
-      "asof": "2026-10-12",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 208.79,
-        "tp1": 215.74,
-        "tp2": 222.69,
-        "sl": 198.36
-      },
-      "periods": [
-        "1 Mes",
-        "3 Meses"
       ]
     },
     {
