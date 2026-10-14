@@ -1,30 +1,51 @@
 {
-  "checked_at": "2026-10-14 14:15:12 (Hora Colombia)",
+  "checked_at": "2026-10-14 18:46:26 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 767.71,
-    "spy_sma200": 721.01,
-    "spy_vs_sma200_pct": 6.48,
-    "drawdown_52w_pct": -1.46,
-    "realized_vol_20d": 10.7
+    "spy_price": 769.6,
+    "spy_sma200": 721.02,
+    "spy_vs_sma200_pct": 6.74,
+    "drawdown_52w_pct": -1.22,
+    "realized_vol_20d": 10.3
   },
-  "confirmed": 0,
-  "signals": [],
-  "watchlist": [
-    {
-      "ticker": "ANET",
-      "failed": [
-        "Entry Zones"
-      ]
-    },
+  "confirmed": 1,
+  "signals": [
     {
       "ticker": "EWZ",
-      "failed": [
-        "Radar"
+      "composite": 25,
+      "prob": 95,
+      "fg": {
+        "earliness": 35,
+        "earliness_lab": "TARDIO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -8.62,
+        "calidad": "EXCELENTE",
+        "upside": 16.0
+      },
+      "buffett": 5,
+      "mos": null,
+      "rs_rank": 95,
+      "asof": "2026-10-14",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 42.29,
+        "tp1": 43.32,
+        "tp2": 44.35,
+        "sl": 40.74
+      },
+      "periods": [
+        "1-3 Meses"
       ]
-    },
+    }
+  ],
+  "watchlist": [
     {
       "ticker": "JMST",
       "failed": [
