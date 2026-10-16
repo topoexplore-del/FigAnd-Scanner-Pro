@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-15 18:36:12 (Hora Colombia)",
+  "checked_at": "2026-10-15 19:13:27 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -10,11 +10,220 @@
     "drawdown_52w_pct": -0.94,
     "realized_vol_20d": 9.6
   },
-  "confirmed": 0,
-  "signals": [],
+  "confirmed": 4,
+  "signals": [
+    {
+      "ticker": "KOF",
+      "composite": 65,
+      "prob": 95,
+      "fg": {
+        "earliness": 75,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al activa",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -5.78,
+        "calidad": "REGULAR",
+        "upside": 9.2
+      },
+      "buffett": 65,
+      "mos": -77.6,
+      "rs_rank": 72,
+      "asof": "2026-10-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 114.83,
+        "tp1": 117.63,
+        "tp2": 120.43,
+        "sl": 110.63
+      },
+      "periods": [
+        "1 Semana"
+      ]
+    },
+    {
+      "ticker": "ADI",
+      "composite": 61,
+      "prob": 95,
+      "fg": {
+        "earliness": 65,
+        "earliness_lab": "FRESCO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al activa",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -10.17,
+        "calidad": "REGULAR",
+        "upside": 10.7
+      },
+      "buffett": 60,
+      "mos": -72.0,
+      "rs_rank": 69,
+      "asof": "2026-10-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 400.43,
+        "tp1": 412.15,
+        "tp2": 423.87,
+        "sl": 382.85
+      },
+      "periods": [
+        "1 Mes",
+        "3 Meses"
+      ]
+    },
+    {
+      "ticker": "ADI",
+      "composite": 61,
+      "prob": 95,
+      "fg": {
+        "earliness": 65,
+        "earliness_lab": "FRESCO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al activa",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -10.17,
+        "calidad": "REGULAR",
+        "upside": 10.7
+      },
+      "buffett": 60,
+      "mos": -72.0,
+      "rs_rank": 69,
+      "asof": "2026-10-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 400.43,
+        "tp1": 412.15,
+        "tp2": 423.87,
+        "sl": 382.85
+      },
+      "periods": [
+        "1 Mes",
+        "3 Meses"
+      ]
+    },
+    {
+      "ticker": "LVHI",
+      "composite": 25,
+      "prob": 61,
+      "fg": {
+        "earliness": 95,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -4.51,
+        "calidad": "EXCELENTE",
+        "upside": 10.4
+      },
+      "buffett": 5,
+      "mos": null,
+      "rs_rank": 61,
+      "asof": "2026-10-15",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 42.53,
+        "tp1": 42.82,
+        "tp2": 43.11,
+        "sl": 42.09
+      },
+      "periods": [
+        "1 Semana"
+      ]
+    }
+  ],
   "watchlist": [
     {
+      "ticker": "PBR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "PBR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "EC",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ACN",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "FMX",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "CIB",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "WIT",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "QLYS",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "BAP",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "BAP",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "ADP",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "EPAM",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "BSVN",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "CVLT",
       "failed": [
         "Analysis"
       ]
@@ -23,24 +232,6 @@
       "ticker": "EWZ",
       "failed": [
         "Radar"
-      ]
-    },
-    {
-      "ticker": "RWL",
-      "failed": [
-        "Game Theory"
-      ]
-    },
-    {
-      "ticker": "QYLD",
-      "failed": [
-        "Game Theory"
-      ]
-    },
-    {
-      "ticker": "JMST",
-      "failed": [
-        "Game Theory"
       ]
     }
   ]
