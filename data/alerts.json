@@ -1,18 +1,30 @@
 {
-  "checked_at": "2026-10-19 19:57:52 (Hora Colombia)",
+  "checked_at": "2026-10-20 13:59:33 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 763.25,
-    "spy_sma200": 721.88,
-    "spy_vs_sma200_pct": 5.73,
-    "drawdown_52w_pct": -2.03,
-    "realized_vol_20d": 10.5
+    "spy_price": 769.2,
+    "spy_sma200": 722.78,
+    "spy_vs_sma200_pct": 6.42,
+    "drawdown_52w_pct": -1.27,
+    "realized_vol_20d": 9.0
   },
   "confirmed": 0,
   "signals": [],
   "watchlist": [
+    {
+      "ticker": "EWZ",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "EWW",
+      "failed": [
+        "Radar"
+      ]
+    },
     {
       "ticker": "DDTA",
       "failed": [
