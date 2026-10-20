@@ -1,30 +1,83 @@
 {
-  "checked_at": "2026-10-20 13:59:33 (Hora Colombia)",
+  "checked_at": "2026-10-20 18:42:01 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 769.2,
+    "spy_price": 769.05,
     "spy_sma200": 722.78,
-    "spy_vs_sma200_pct": 6.42,
-    "drawdown_52w_pct": -1.27,
+    "spy_vs_sma200_pct": 6.4,
+    "drawdown_52w_pct": -1.29,
     "realized_vol_20d": 9.0
   },
-  "confirmed": 0,
-  "signals": [],
-  "watchlist": [
+  "confirmed": 2,
+  "signals": [
     {
       "ticker": "EWZ",
-      "failed": [
-        "Radar"
+      "composite": 25,
+      "prob": 95,
+      "fg": {
+        "earliness": 35,
+        "earliness_lab": "TARDIO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -10.26,
+        "calidad": "EXCELENTE",
+        "upside": 15.9
+      },
+      "buffett": 5,
+      "mos": null,
+      "rs_rank": 95,
+      "asof": "2026-10-20",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 42.63,
+        "tp1": 43.65,
+        "tp2": 44.67,
+        "sl": 41.1
+      },
+      "periods": [
+        "1-3 Meses"
       ]
     },
     {
       "ticker": "EWW",
-      "failed": [
-        "Radar"
+      "composite": 25,
+      "prob": 61,
+      "fg": {
+        "earliness": 100,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": 3.68,
+        "calidad": "EXCELENTE",
+        "upside": 13.6
+      },
+      "buffett": 5,
+      "mos": null,
+      "rs_rank": 55,
+      "asof": "2026-10-20",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 75.12,
+        "tp1": 76.39,
+        "tp2": 77.66,
+        "sl": 73.22
+      },
+      "periods": [
+        "1 Semana"
       ]
-    },
+    }
+  ],
+  "watchlist": [
     {
       "ticker": "DDTA",
       "failed": [
