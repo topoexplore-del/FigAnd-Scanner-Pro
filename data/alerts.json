@@ -1,81 +1,47 @@
 {
-  "checked_at": "2026-10-21 14:10:42 (Hora Colombia)",
+  "checked_at": "2026-10-21 18:58:08 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 771.73,
-    "spy_sma200": 723.23,
-    "spy_vs_sma200_pct": 6.71,
-    "drawdown_52w_pct": -0.94,
-    "realized_vol_20d": 8.7
+    "spy_price": 773.09,
+    "spy_sma200": 723.24,
+    "spy_vs_sma200_pct": 6.89,
+    "drawdown_52w_pct": -0.77,
+    "realized_vol_20d": 8.8
   },
-  "confirmed": 2,
-  "signals": [
+  "confirmed": 0,
+  "signals": [],
+  "watchlist": [
+    {
+      "ticker": "RELY",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "AHR",
+      "failed": [
+        "Analysis"
+      ]
+    },
     {
       "ticker": "EWZ",
-      "composite": 25,
-      "prob": 95,
-      "fg": {
-        "earliness": 35,
-        "earliness_lab": "TARDIO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -10.26,
-        "calidad": "EXCELENTE",
-        "upside": 15.9
-      },
-      "buffett": 5,
-      "mos": null,
-      "rs_rank": 95,
-      "asof": "2026-10-20",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 42.63,
-        "tp1": 43.65,
-        "tp2": 44.67,
-        "sl": 41.1
-      },
-      "periods": [
-        "1-3 Meses"
+      "failed": [
+        "Radar"
       ]
     },
     {
       "ticker": "EWW",
-      "composite": 25,
-      "prob": 61,
-      "fg": {
-        "earliness": 100,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": 3.68,
-        "calidad": "EXCELENTE",
-        "upside": 13.6
-      },
-      "buffett": 5,
-      "mos": null,
-      "rs_rank": 55,
-      "asof": "2026-10-20",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 75.12,
-        "tp1": 76.4,
-        "tp2": 77.68,
-        "sl": 73.2
-      },
-      "periods": [
-        "1 Semana"
+      "failed": [
+        "Radar"
       ]
     }
-  ],
-  "watchlist": []
+  ]
 }
