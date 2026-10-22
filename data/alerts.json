@@ -1,24 +1,18 @@
 {
-  "checked_at": "2026-10-22 14:06:59 (Hora Colombia)",
+  "checked_at": "2026-10-22 18:56:45 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 761.34,
-    "spy_sma200": 723.61,
-    "spy_vs_sma200_pct": 5.21,
-    "drawdown_52w_pct": -2.28,
-    "realized_vol_20d": 10.4
+    "spy_price": 763.96,
+    "spy_sma200": 723.62,
+    "spy_vs_sma200_pct": 5.57,
+    "drawdown_52w_pct": -1.94,
+    "realized_vol_20d": 9.8
   },
   "confirmed": 0,
   "signals": [],
   "watchlist": [
-    {
-      "ticker": "RELY",
-      "failed": [
-        "Analysis"
-      ]
-    },
     {
       "ticker": "SHEL",
       "failed": [
@@ -32,12 +26,6 @@
       ]
     },
     {
-      "ticker": "AHR",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
       "ticker": "EWZ",
       "failed": [
         "Radar"
@@ -47,6 +35,12 @@
       "ticker": "EWW",
       "failed": [
         "Radar"
+      ]
+    },
+    {
+      "ticker": "FEGE",
+      "failed": [
+        "Game Theory"
       ]
     }
   ]
