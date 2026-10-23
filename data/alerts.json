@@ -1,17 +1,50 @@
 {
-  "checked_at": "2026-10-23 13:57:23 (Hora Colombia)",
+  "checked_at": "2026-10-23 18:48:51 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 760.63,
-    "spy_sma200": 724.01,
-    "spy_vs_sma200_pct": 5.06,
-    "drawdown_52w_pct": -2.37,
-    "realized_vol_20d": 9.7
+    "spy_price": 759.97,
+    "spy_sma200": 724.0,
+    "spy_vs_sma200_pct": 4.97,
+    "drawdown_52w_pct": -2.45,
+    "realized_vol_20d": 9.8
   },
-  "confirmed": 0,
-  "signals": [],
+  "confirmed": 1,
+  "signals": [
+    {
+      "ticker": "EWZ",
+      "composite": 25,
+      "prob": 95,
+      "fg": {
+        "earliness": 35,
+        "earliness_lab": "TARDIO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -11.74,
+        "calidad": "EXCELENTE",
+        "upside": 15.7
+      },
+      "buffett": 5,
+      "mos": null,
+      "rs_rank": 94,
+      "asof": "2026-10-23",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 42.29,
+        "tp1": 43.29,
+        "tp2": 44.29,
+        "sl": 40.79
+      },
+      "periods": [
+        "1-3 Meses"
+      ]
+    }
+  ],
   "watchlist": [
     {
       "ticker": "SHEL",
@@ -26,21 +59,15 @@
       ]
     },
     {
-      "ticker": "EWZ",
+      "ticker": "SNFCA",
       "failed": [
-        "Radar"
+        "Analysis"
       ]
     },
     {
       "ticker": "EWW",
       "failed": [
         "Radar"
-      ]
-    },
-    {
-      "ticker": "FEGE",
-      "failed": [
-        "Game Theory"
       ]
     }
   ]
