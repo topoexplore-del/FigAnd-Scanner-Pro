@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26 19:19:05 (Hora Colombia)",
+  "checked_at": "2026-10-26 20:07:42 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -13,42 +13,6 @@
   "confirmed": 0,
   "signals": [],
   "watchlist": [
-    {
-      "ticker": "PBR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "PBR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "VIST",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "EC",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "FMX",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "PAC",
-      "failed": [
-        "Radar"
-      ]
-    },
     {
       "ticker": "SBFG",
       "failed": [
