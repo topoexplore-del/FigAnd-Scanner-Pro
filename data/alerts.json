@@ -1,63 +1,18 @@
 {
-  "checked_at": "2026-10-27 14:53:28 (Hora Colombia)",
+  "checked_at": "2026-10-27 19:18:23 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 770.73,
-    "spy_sma200": 724.82,
-    "spy_vs_sma200_pct": 6.33,
-    "drawdown_52w_pct": -1.07,
-    "realized_vol_20d": 10.1
+    "spy_price": 765.37,
+    "spy_sma200": 724.41,
+    "spy_vs_sma200_pct": 5.65,
+    "drawdown_52w_pct": -1.76,
+    "realized_vol_20d": 9.8
   },
-  "confirmed": 1,
-  "signals": [
-    {
-      "ticker": "EWW",
-      "composite": 25,
-      "prob": 95,
-      "fg": {
-        "earliness": 85,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": 3.15,
-        "calidad": "EXCELENTE",
-        "upside": 13.6
-      },
-      "buffett": 5,
-      "mos": null,
-      "rs_rank": 48,
-      "asof": "2026-10-26",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 74.92,
-        "tp1": 76.19,
-        "tp2": 77.46,
-        "sl": 73.02
-      },
-      "periods": [
-        "1-3 Meses"
-      ]
-    }
-  ],
+  "confirmed": 0,
+  "signals": [],
   "watchlist": [
-    {
-      "ticker": "PLTR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "SARO",
-      "failed": [
-        "Radar"
-      ]
-    },
     {
       "ticker": "SBFG",
       "failed": [
