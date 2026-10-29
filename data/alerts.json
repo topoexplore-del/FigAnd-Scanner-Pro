@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-28 19:40:24 (Hora Colombia)",
+  "checked_at": "2026-10-28 20:34:45 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -14,9 +14,15 @@
   "signals": [],
   "watchlist": [
     {
-      "ticker": "SBFG",
+      "ticker": "AMG",
       "failed": [
         "Analysis"
+      ]
+    },
+    {
+      "ticker": "SHEL",
+      "failed": [
+        "Radar"
       ]
     }
   ]
