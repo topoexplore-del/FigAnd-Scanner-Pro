@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-10-29 15:08:51 (Hora Colombia)",
+  "checked_at": "2026-10-29 19:41:14 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 769.49,
-    "spy_sma200": 725.63,
-    "spy_vs_sma200_pct": 6.04,
-    "drawdown_52w_pct": -1.23,
-    "realized_vol_20d": 10.1
+    "spy_price": 772.31,
+    "spy_sma200": 725.23,
+    "spy_vs_sma200_pct": 6.49,
+    "drawdown_52w_pct": -0.87,
+    "realized_vol_20d": 10.0
   },
   "confirmed": 0,
   "signals": [],
@@ -20,33 +20,9 @@
       ]
     },
     {
-      "ticker": "SHC",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
       "ticker": "SHEL",
       "failed": [
         "Radar"
-      ]
-    },
-    {
-      "ticker": "PLTR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "SARO",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "QYLD",
-      "failed": [
-        "Game Theory"
       ]
     }
   ]
