@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-11-03 15:50:44 (Hora Colombia)",
+  "checked_at": "2026-11-03 20:07:03 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 754.76,
-    "spy_sma200": 726.65,
-    "spy_vs_sma200_pct": 3.87,
-    "drawdown_52w_pct": -3.12,
-    "realized_vol_20d": 11.2
+    "spy_price": 752.1,
+    "spy_sma200": 726.31,
+    "spy_vs_sma200_pct": 3.55,
+    "drawdown_52w_pct": -3.46,
+    "realized_vol_20d": 11.3
   },
-  "confirmed": 21,
+  "confirmed": 20,
   "signals": [
     {
       "ticker": "TXN",
@@ -241,38 +241,6 @@
       },
       "periods": [
         "1 Mes"
-      ]
-    },
-    {
-      "ticker": "RWL",
-      "composite": 15,
-      "prob": 63,
-      "fg": {
-        "earliness": 100,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -6.63,
-        "calidad": "BUENO",
-        "upside": 7.3
-      },
-      "buffett": 0,
-      "mos": null,
-      "rs_rank": 87,
-      "asof": "2026-11-02",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 134.97,
-        "tp1": 135.97,
-        "tp2": 136.97,
-        "sl": 133.47
-      },
-      "periods": [
-        "1-3 Meses"
       ]
     },
     {
@@ -768,12 +736,6 @@
       ]
     },
     {
-      "ticker": "RELY",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
       "ticker": "KFRC",
       "failed": [
         "Analysis"
@@ -783,6 +745,12 @@
       "ticker": "EXPE",
       "failed": [
         "Analysis"
+      ]
+    },
+    {
+      "ticker": "STLD",
+      "failed": [
+        "Radar"
       ]
     }
   ]
