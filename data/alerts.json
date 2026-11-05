@@ -1,50 +1,26 @@
 {
-  "checked_at": "2026-11-04 16:07:46 (Hora Colombia)",
+  "checked_at": "2026-11-04 21:10:37 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 766.81,
-    "spy_sma200": 727.12,
-    "spy_vs_sma200_pct": 5.46,
-    "drawdown_52w_pct": -1.58,
-    "realized_vol_20d": 12.8
+    "spy_price": 754.35,
+    "spy_sma200": 726.65,
+    "spy_vs_sma200_pct": 3.81,
+    "drawdown_52w_pct": -3.18,
+    "realized_vol_20d": 11.1
   },
   "confirmed": 0,
   "signals": [],
   "watchlist": [
     {
-      "ticker": "SARO",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "CALY",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "SBFG",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "RWL",
+      "ticker": "XJH",
       "failed": [
         "Game Theory"
       ]
     },
     {
       "ticker": "SMMD",
-      "failed": [
-        "Game Theory"
-      ]
-    },
-    {
-      "ticker": "BSCS",
       "failed": [
         "Game Theory"
       ]
