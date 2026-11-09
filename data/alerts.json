@@ -1,16 +1,47 @@
 {
-  "checked_at": "2026-11-06 20:30:28 (Hora Colombia)",
+  "checked_at": "2026-11-09 18:45:16 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 733.0,
-    "spy_sma200": 727.39,
-    "spy_vs_sma200_pct": 0.77,
-    "drawdown_52w_pct": -5.92,
-    "realized_vol_20d": 20.1
+    "spy_price": 752.69,
+    "spy_sma200": 727.99,
+    "spy_vs_sma200_pct": 3.39,
+    "drawdown_52w_pct": -3.39,
+    "realized_vol_20d": 22.0
   },
   "confirmed": 0,
   "signals": [],
-  "watchlist": []
+  "watchlist": [
+    {
+      "ticker": "MPWR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "DE",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "SNFCA",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "TRNO",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "FEGE",
+      "failed": [
+        "Game Theory"
+      ]
+    }
+  ]
 }
