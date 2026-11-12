@@ -1,17 +1,53 @@
 {
-  "checked_at": "2026-11-11 21:55:02 (Hora Colombia)",
+  "checked_at": "2026-11-12 16:47:48 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 749.92,
-    "spy_sma200": 728.3,
-    "spy_vs_sma200_pct": 2.97,
-    "drawdown_52w_pct": -3.74,
-    "realized_vol_20d": 22.0
+    "spy_price": 757.12,
+    "spy_sma200": 728.99,
+    "spy_vs_sma200_pct": 3.86,
+    "drawdown_52w_pct": -2.82,
+    "realized_vol_20d": 22.4
   },
-  "confirmed": 1,
+  "confirmed": 2,
   "signals": [
+    {
+      "ticker": "ANET",
+      "composite": 80,
+      "prob": 95,
+      "fg": {
+        "earliness": 40,
+        "earliness_lab": "MADURO",
+        "not_temprano": true,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -8.54,
+        "calidad": "BUENO",
+        "upside": 19.0
+      },
+      "buffett": 70,
+      "mos": -84.0,
+      "rs_rank": 91,
+      "asof": "2026-11-12",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 203.15,
+        "tp1": 214.76,
+        "tp2": 226.37,
+        "sl": 185.74
+      },
+      "periods": [
+        "1 Semana",
+        "1 Mes",
+        "3 Meses",
+        "6 Meses",
+        "1 A\u00f1o"
+      ]
+    },
     {
       "ticker": "CHE",
       "composite": 79,
@@ -133,7 +169,7 @@
       ]
     },
     {
-      "ticker": "TXN",
+      "ticker": "MPWR",
       "failed": [
         "Radar"
       ]
