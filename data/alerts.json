@@ -1,20 +1,116 @@
 {
-  "checked_at": "2026-11-13 16:15:39 (Hora Colombia)",
+  "checked_at": "2026-11-13 21:04:04 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
     "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 754.21,
-    "spy_sma200": 729.31,
-    "spy_vs_sma200_pct": 3.41,
-    "drawdown_52w_pct": -3.19,
+    "spy_price": 754.37,
+    "spy_sma200": 729.32,
+    "spy_vs_sma200_pct": 3.44,
+    "drawdown_52w_pct": -3.17,
     "realized_vol_20d": 22.1
   },
-  "confirmed": 0,
-  "signals": [],
+  "confirmed": 1,
+  "signals": [
+    {
+      "ticker": "EOG",
+      "composite": 100,
+      "prob": 95,
+      "fg": {
+        "earliness": 90,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -13.81,
+        "calidad": "EXCELENTE",
+        "upside": 17.1
+      },
+      "buffett": 100,
+      "mos": -5.9,
+      "rs_rank": 86,
+      "asof": "2026-11-13",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 157.01,
+        "tp1": 161.37,
+        "tp2": 165.73,
+        "sl": 150.47
+      },
+      "periods": [
+        "1 Semana",
+        "3 Meses",
+        "6 Meses",
+        "1 A\u00f1o"
+      ]
+    }
+  ],
   "watchlist": [
     {
-      "ticker": "ANET",
+      "ticker": "DECK",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "CF",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "NXPI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "NXPI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ACN",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "PODD",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "FHI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "TXN",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "CBOE",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "WTS",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "FMX",
       "failed": [
         "Radar"
       ]
@@ -32,7 +128,13 @@
       ]
     },
     {
-      "ticker": "AMD",
+      "ticker": "MPWR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "AVGO",
       "failed": [
         "Radar"
       ]
