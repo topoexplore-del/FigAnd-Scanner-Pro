@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17 17:50:55 (Hora Colombia)",
+  "checked_at": "2026-11-17 22:28:33 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -10,89 +10,9 @@
     "drawdown_52w_pct": -5.99,
     "realized_vol_20d": 23.1
   },
-  "confirmed": 2,
-  "signals": [
-    {
-      "ticker": "CHE",
-      "composite": 79,
-      "prob": 95,
-      "fg": {
-        "earliness": 65,
-        "earliness_lab": "FRESCO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -14.46,
-        "calidad": "BUENO",
-        "upside": 13.1
-      },
-      "buffett": 55,
-      "mos": -67.8,
-      "rs_rank": 80,
-      "asof": "2026-11-16",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 545.23,
-        "tp1": 559.31,
-        "tp2": 573.39,
-        "sl": 524.11
-      },
-      "periods": [
-        "1 Semana",
-        "1 Mes",
-        "3 Meses",
-        "6 Meses"
-      ]
-    },
-    {
-      "ticker": "FAST",
-      "composite": 74,
-      "prob": 95,
-      "fg": {
-        "earliness": 50,
-        "earliness_lab": "MADURO",
-        "not_temprano": true,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -12.62,
-        "calidad": "BUENO",
-        "upside": 8.8
-      },
-      "buffett": 85,
-      "mos": -81.8,
-      "rs_rank": 87,
-      "asof": "2026-11-16",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 54.73,
-        "tp1": 55.98,
-        "tp2": 57.23,
-        "sl": 52.85
-      },
-      "periods": [
-        "1 Mes"
-      ]
-    }
-  ],
+  "confirmed": 0,
+  "signals": [],
   "watchlist": [
-    {
-      "ticker": "EOG",
-      "failed": [
-        "Entry Zones"
-      ]
-    },
-    {
-      "ticker": "BWMX",
-      "failed": [
-        "Analysis"
-      ]
-    },
     {
       "ticker": "CF",
       "failed": [
@@ -100,12 +20,6 @@
       ]
     },
     {
-      "ticker": "COP",
-      "failed": [
-        "Entry Zones"
-      ]
-    },
-    {
       "ticker": "NXPI",
       "failed": [
         "Radar"
@@ -113,18 +27,6 @@
     },
     {
       "ticker": "NXPI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "ACN",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "FHI",
       "failed": [
         "Radar"
       ]
@@ -154,21 +56,51 @@
       ]
     },
     {
-      "ticker": "WTS",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
       "ticker": "FMX",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "MDLZ",
+      "ticker": "ANET",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "MPWR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "MPWR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "UNP",
       "failed": [
         "Analysis"
+      ]
+    },
+    {
+      "ticker": "MET",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "PRI",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "BOOT",
+      "failed": [
+        "Radar"
       ]
     }
   ]
