@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-18 17:32:01 (Hora Colombia)",
+  "checked_at": "2026-11-18 22:09:59 (Hora Colombia)",
   "regime": {
     "regime": "BULL",
     "icon": "\ud83d\udfe2",
@@ -10,31 +10,55 @@
     "drawdown_52w_pct": -6.28,
     "realized_vol_20d": 22.9
   },
-  "confirmed": 0,
-  "signals": [],
+  "confirmed": 1,
+  "signals": [
+    {
+      "ticker": "QLYS",
+      "composite": 79,
+      "prob": 95,
+      "fg": {
+        "earliness": 100,
+        "earliness_lab": "TEMPRANO",
+        "not_temprano": false,
+        "fase": "Se\u00f1al m\u00e1xima",
+        "markov": 3,
+        "markov_lab": "STRONG",
+        "dif_ema": -44.82,
+        "calidad": "BUENO",
+        "upside": 27.8
+      },
+      "buffett": 85,
+      "mos": -74.6,
+      "rs_rank": 88,
+      "asof": "2026-11-18",
+      "live": null,
+      "status": null,
+      "max_chase": null,
+      "zones": {
+        "entry": 192.95,
+        "tp1": 207.25,
+        "tp2": 221.55,
+        "sl": 171.5
+      },
+      "periods": [
+        "1 Semana",
+        "3 Meses",
+        "6 Meses",
+        "1 A\u00f1o"
+      ]
+    }
+  ],
   "watchlist": [
     {
-      "ticker": "CF",
+      "ticker": "FHI",
       "failed": [
-        "Radar"
+        "Entry Zones"
       ]
     },
     {
-      "ticker": "NXPI",
+      "ticker": "BBY",
       "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "NXPI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "TXN",
-      "failed": [
-        "Radar"
+        "Analysis"
       ]
     },
     {
@@ -56,7 +80,7 @@
       ]
     },
     {
-      "ticker": "FMX",
+      "ticker": "WTS",
       "failed": [
         "Radar"
       ]
@@ -68,7 +92,13 @@
       ]
     },
     {
-      "ticker": "MPWR",
+      "ticker": "PGNY",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "HWM",
       "failed": [
         "Radar"
       ]
@@ -80,27 +110,33 @@
       ]
     },
     {
-      "ticker": "MET",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "PRI",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
       "ticker": "BOOT",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "ALL",
+      "ticker": "REGN",
       "failed": [
-        "Analysis"
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "TME",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "BF-B",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "BMI",
+      "failed": [
+        "Radar"
       ]
     }
   ]
