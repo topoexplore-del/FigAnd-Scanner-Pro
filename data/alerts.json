@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-18 22:09:59 (Hora Colombia)",
+  "checked_at": "2026-11-19 17:37:44 (Hora Colombia)",
   "regime": {
-    "regime": "BULL",
-    "icon": "\ud83d\udfe2",
-    "advice": "Mercado alcista \u2014 se\u00f1ales LONG operan con criterios normales.",
-    "spy_price": 730.2,
-    "spy_sma200": 730.02,
-    "spy_vs_sma200_pct": 0.02,
-    "drawdown_52w_pct": -6.28,
-    "realized_vol_20d": 22.9
+    "regime": "NEUTRAL",
+    "icon": "\ud83d\udfe1",
+    "advice": "Mercado en transici\u00f3n \u2014 solo se\u00f1ales de m\u00e1xima calidad (RS alto).",
+    "spy_price": 715.87,
+    "spy_sma200": 730.2,
+    "spy_vs_sma200_pct": -1.96,
+    "drawdown_52w_pct": -8.11,
+    "realized_vol_20d": 23.5
   },
   "confirmed": 1,
   "signals": [
@@ -62,6 +62,12 @@
       ]
     },
     {
+      "ticker": "POWL",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "TOST",
       "failed": [
         "Radar"
@@ -81,12 +87,6 @@
     },
     {
       "ticker": "WTS",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "ANET",
       "failed": [
         "Radar"
       ]
