@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-19 22:01:10 (Hora Colombia)",
+  "checked_at": "2026-11-20 17:11:15 (Hora Colombia)",
   "regime": {
     "regime": "NEUTRAL",
     "icon": "\ud83d\udfe1",
     "advice": "Mercado en transici\u00f3n \u2014 solo se\u00f1ales de m\u00e1xima calidad (RS alto).",
-    "spy_price": 715.87,
-    "spy_sma200": 730.2,
-    "spy_vs_sma200_pct": -1.96,
-    "drawdown_52w_pct": -8.11,
-    "realized_vol_20d": 23.5
+    "spy_price": 689.81,
+    "spy_sma200": 730.29,
+    "spy_vs_sma200_pct": -5.54,
+    "drawdown_52w_pct": -11.46,
+    "realized_vol_20d": 26.3
   },
   "confirmed": 1,
   "signals": [
@@ -55,12 +55,6 @@
       ]
     },
     {
-      "ticker": "POWL",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
       "ticker": "CBOE",
       "failed": [
         "Radar"
@@ -88,6 +82,12 @@
       "ticker": "AIR",
       "failed": [
         "Radar"
+      ]
+    },
+    {
+      "ticker": "BSCS",
+      "failed": [
+        "Game Theory"
       ]
     },
     {
