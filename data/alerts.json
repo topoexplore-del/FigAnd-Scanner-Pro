@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20 17:11:15 (Hora Colombia)",
+  "checked_at": "2026-11-20 22:03:57 (Hora Colombia)",
   "regime": {
     "regime": "NEUTRAL",
     "icon": "\ud83d\udfe1",
@@ -13,8 +13,8 @@
   "confirmed": 1,
   "signals": [
     {
-      "ticker": "CHE",
-      "composite": 79,
+      "ticker": "STZ",
+      "composite": 90,
       "prob": 95,
       "fg": {
         "earliness": 75,
@@ -23,37 +23,31 @@
         "fase": "Se\u00f1al m\u00e1xima",
         "markov": 3,
         "markov_lab": "STRONG",
-        "dif_ema": -15.03,
-        "calidad": "BUENO",
-        "upside": 12.9
+        "dif_ema": -1.44,
+        "calidad": "EXCELENTE",
+        "upside": 16.9
       },
-      "buffett": 55,
-      "mos": -67.9,
-      "rs_rank": 84,
-      "asof": "2026-11-19",
+      "buffett": 80,
+      "mos": -20.5,
+      "rs_rank": 92,
+      "asof": "2026-11-20",
       "live": null,
       "status": null,
       "max_chase": null,
       "zones": {
-        "entry": 547.18,
-        "tp1": 561.0,
-        "tp2": 574.82,
-        "sl": 526.45
+        "entry": 140.72,
+        "tp1": 144.54,
+        "tp2": 148.36,
+        "sl": 134.99
       },
       "periods": [
-        "1 Mes",
         "3 Meses",
-        "6 Meses"
+        "6 Meses",
+        "1 A\u00f1o"
       ]
     }
   ],
   "watchlist": [
-    {
-      "ticker": "QNST",
-      "failed": [
-        "Analysis"
-      ]
-    },
     {
       "ticker": "CBOE",
       "failed": [
@@ -61,13 +55,37 @@
       ]
     },
     {
-      "ticker": "POWL",
+      "ticker": "PGNY",
       "failed": [
         "Radar"
       ]
     },
     {
+      "ticker": "BOOT",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ALL",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
       "ticker": "REGN",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ROKU",
+      "failed": [
+        "Entry Zones"
+      ]
+    },
+    {
+      "ticker": "BF-B",
       "failed": [
         "Radar"
       ]
@@ -79,31 +97,43 @@
       ]
     },
     {
-      "ticker": "AIR",
+      "ticker": "CB",
       "failed": [
-        "Radar"
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "BRO",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "POWW",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "ICCC",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "SJM",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
+      "ticker": "GPN",
+      "failed": [
+        "Analysis"
       ]
     },
     {
       "ticker": "BSCS",
-      "failed": [
-        "Game Theory"
-      ]
-    },
-    {
-      "ticker": "BSV",
-      "failed": [
-        "Game Theory"
-      ]
-    },
-    {
-      "ticker": "VGSH",
-      "failed": [
-        "Game Theory"
-      ]
-    },
-    {
-      "ticker": "IGSB",
       "failed": [
         "Game Theory"
       ]
