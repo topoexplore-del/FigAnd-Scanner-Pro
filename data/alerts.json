@@ -1,55 +1,80 @@
 {
-  "checked_at": "2026-11-23 21:03:21 (Hora Colombia)",
+  "checked_at": "2026-11-24 00:57:18 (Hora Colombia)",
   "regime": {
     "regime": "NEUTRAL",
     "icon": "\ud83d\udfe1",
     "advice": "Mercado en transici\u00f3n \u2014 solo se\u00f1ales de m\u00e1xima calidad (RS alto).",
-    "spy_price": 689.81,
-    "spy_sma200": 730.29,
-    "spy_vs_sma200_pct": -5.54,
-    "drawdown_52w_pct": -11.46,
-    "realized_vol_20d": 26.3
+    "spy_price": 722.29,
+    "spy_sma200": 730.47,
+    "spy_vs_sma200_pct": -1.12,
+    "drawdown_52w_pct": -7.29,
+    "realized_vol_20d": 31.9
   },
-  "confirmed": 1,
-  "signals": [
-    {
-      "ticker": "STZ",
-      "composite": 90,
-      "prob": 95,
-      "fg": {
-        "earliness": 75,
-        "earliness_lab": "TEMPRANO",
-        "not_temprano": false,
-        "fase": "Se\u00f1al m\u00e1xima",
-        "markov": 3,
-        "markov_lab": "STRONG",
-        "dif_ema": -1.44,
-        "calidad": "EXCELENTE",
-        "upside": 16.9
-      },
-      "buffett": 80,
-      "mos": -20.5,
-      "rs_rank": 92,
-      "asof": "2026-11-20",
-      "live": null,
-      "status": null,
-      "max_chase": null,
-      "zones": {
-        "entry": 140.72,
-        "tp1": 144.54,
-        "tp2": 148.36,
-        "sl": 134.99
-      },
-      "periods": [
-        "3 Meses",
-        "6 Meses",
-        "1 A\u00f1o"
-      ]
-    }
-  ],
+  "confirmed": 0,
+  "signals": [],
   "watchlist": [
     {
-      "ticker": "CBOE",
+      "ticker": "DECK",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "POWL",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "NXPI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "NXPI",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "POWL",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "PDD",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "APH",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "FMX",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "MPWR",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "MPWR",
       "failed": [
         "Radar"
       ]
@@ -61,81 +86,21 @@
       ]
     },
     {
+      "ticker": "SEIC",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "ADP",
+      "failed": [
+        "Analysis"
+      ]
+    },
+    {
       "ticker": "BOOT",
       "failed": [
         "Radar"
-      ]
-    },
-    {
-      "ticker": "ALL",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "REGN",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "ROKU",
-      "failed": [
-        "Entry Zones"
-      ]
-    },
-    {
-      "ticker": "BF-B",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "BMI",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "CB",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "BRO",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "POWW",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "ICCC",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "SJM",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "GPN",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "DFSD",
-      "failed": [
-        "Game Theory"
       ]
     }
   ]
