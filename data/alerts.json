@@ -1,26 +1,20 @@
 {
-  "checked_at": "2026-11-24 00:57:18 (Hora Colombia)",
+  "checked_at": "2026-11-24 18:49:28 (Hora Colombia)",
   "regime": {
     "regime": "NEUTRAL",
     "icon": "\ud83d\udfe1",
     "advice": "Mercado en transici\u00f3n \u2014 solo se\u00f1ales de m\u00e1xima calidad (RS alto).",
-    "spy_price": 722.29,
-    "spy_sma200": 730.47,
-    "spy_vs_sma200_pct": -1.12,
-    "drawdown_52w_pct": -7.29,
-    "realized_vol_20d": 31.9
+    "spy_price": 718.78,
+    "spy_sma200": 730.62,
+    "spy_vs_sma200_pct": -1.62,
+    "drawdown_52w_pct": -7.74,
+    "realized_vol_20d": 31.7
   },
   "confirmed": 0,
   "signals": [],
   "watchlist": [
     {
       "ticker": "DECK",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "POWL",
       "failed": [
         "Radar"
       ]
@@ -62,18 +56,6 @@
       ]
     },
     {
-      "ticker": "ANET",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
-      "ticker": "MPWR",
-      "failed": [
-        "Radar"
-      ]
-    },
-    {
       "ticker": "MPWR",
       "failed": [
         "Radar"
@@ -99,6 +81,24 @@
     },
     {
       "ticker": "BOOT",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "YMM",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "REGN",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "NDSN",
       "failed": [
         "Radar"
       ]
