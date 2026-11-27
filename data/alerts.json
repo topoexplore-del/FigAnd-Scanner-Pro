@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-26 23:13:18 (Hora Colombia)",
+  "checked_at": "2026-11-27 18:18:15 (Hora Colombia)",
   "regime": {
     "regime": "NEUTRAL",
     "icon": "\ud83d\udfe1",
     "advice": "Mercado en transici\u00f3n \u2014 solo se\u00f1ales de m\u00e1xima calidad (RS alto).",
-    "spy_price": 716.7,
-    "spy_sma200": 730.77,
-    "spy_vs_sma200_pct": -1.93,
-    "drawdown_52w_pct": -8.01,
-    "realized_vol_20d": 31.6
+    "spy_price": 728.32,
+    "spy_sma200": 730.98,
+    "spy_vs_sma200_pct": -0.36,
+    "drawdown_52w_pct": -6.52,
+    "realized_vol_20d": 32.4
   },
   "confirmed": 0,
   "signals": [],
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "ticker": "PGNY",
+      "ticker": "MPWR",
       "failed": [
         "Radar"
       ]
