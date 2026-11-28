@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-27 18:18:15 (Hora Colombia)",
+  "checked_at": "2026-11-27 22:47:19 (Hora Colombia)",
   "regime": {
     "regime": "NEUTRAL",
     "icon": "\ud83d\udfe1",
@@ -14,9 +14,9 @@
   "signals": [],
   "watchlist": [
     {
-      "ticker": "QNST",
+      "ticker": "CTSH",
       "failed": [
-        "Analysis"
+        "Radar"
       ]
     },
     {
@@ -26,9 +26,15 @@
       ]
     },
     {
-      "ticker": "RL",
+      "ticker": "CF",
       "failed": [
-        "Analysis"
+        "Radar"
+      ]
+    },
+    {
+      "ticker": "CBOE",
+      "failed": [
+        "Radar"
       ]
     },
     {
@@ -56,7 +62,7 @@
       ]
     },
     {
-      "ticker": "CBOE",
+      "ticker": "SEZL",
       "failed": [
         "Radar"
       ]
@@ -74,27 +80,21 @@
       ]
     },
     {
+      "ticker": "GRMN",
+      "failed": [
+        "Radar"
+      ]
+    },
+    {
       "ticker": "FMX",
       "failed": [
         "Radar"
       ]
     },
     {
-      "ticker": "MMM",
+      "ticker": "MPWR",
       "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "WM",
-      "failed": [
-        "Analysis"
-      ]
-    },
-    {
-      "ticker": "MDLZ",
-      "failed": [
-        "Analysis"
+        "Radar"
       ]
     },
     {
